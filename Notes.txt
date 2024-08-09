@@ -1,0 +1,13 @@
+How to installl Tailwind for vite 
+~~~~~~~~~~~~~~~~~~~ step - 1 ~~~~~~~~~~~~~~~~~~~
+1. npm create vite@latest my-project -- --template react
+2. cd my-project
+
+~~~~~~~~~~~~~~~~~~~~step - 2 ~~~~~~~~~~~~~~~~~~~~~~
+3. npm install -D tailwindcss postcss autoprefixer
+4. npx tailwindcss init -p
+
+
+IMPORTANT TAKE AWAY FROM VIDEO
+The on click method in React expects a function reference
+You can't directly pass parameters inside the function, instead, you need to pass it as a reference or use arrow function syntax
